@@ -141,7 +141,6 @@ class Date:
         if other.month > 2:
             all_days += 1
 
-        """TODO понять это"""
         for ye in range(self.year):
             all_days += 366 if self.is_leap_year(ye) else 365
 

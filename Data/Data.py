@@ -179,7 +179,7 @@ def main():
     d1.day = 31
     d2 = Date(1, 2, 2020)
     d2.day = 29
-    # d1 += TimeDelta(1)
+    d1 += TimeDelta(1)
     print(repr(d1-d2))
     print(d2)
 
